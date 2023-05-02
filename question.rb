@@ -6,10 +6,10 @@ class Question
   end
 
   def start
-    num1 = rand(1..10)
-    num2 = rand(1..10)
+    num1 = rand(1..20)
+    num2 = rand(1..20)
 
-    puts ">>>>> NEW TURN <<<<<"
+    puts "----- NEW TURN -----"
     puts "Player #{turn}: What is #{num1} + #{num2}?"
     print "> "
 
